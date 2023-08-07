@@ -13,6 +13,7 @@ function del(id){
             crossDomain: true,
             success: (result) => {
                 console.log("success");
+                alert("delete success");
             },
             error: (e) =>{
                 console.log("error");

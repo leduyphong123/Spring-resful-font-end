@@ -35,6 +35,7 @@ function changerEdit(){
         contentType:'application/json',
         success : (result) =>{
             console.log("success");
+            alert("edit success");
         },
         error: (e) => {
             console.log("error")
